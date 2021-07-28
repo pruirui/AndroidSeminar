@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/register_hint"
+        android:textSize="25sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/r_name_et"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/name_hint"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:selectAllOnFocus="true"
+        android:drawablePadding="15dp"
+        android:inputType="text"
+        android:background="@drawable/login_editview"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/r_phone_et"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/username_hint"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:maxLength="11"
+        android:padding="10dp"
+        android:selectAllOnFocus="true"
+        android:drawablePadding="10dp"
+        android:inputType="number"
+        android:background="@drawable/login_editview"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/r_password_et"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password_hint"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:maxLength="15"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:selectAllOnFocus="true"
+        android:drawablePadding="15dp"
+        android:inputType="textPassword"
+        android:background="@drawable/login_editview"
+        android:autofillHints="" />
+
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="146dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/loginbutton_down"
+        android:textSize="25sp" />
+
+</LinearLayout>
