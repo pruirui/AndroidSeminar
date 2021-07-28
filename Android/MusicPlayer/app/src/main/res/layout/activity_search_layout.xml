@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <ListView
+        android:id="@+id/music_list_music_activity_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_music_activity_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/bt_cancel_music_activity_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消选择"
+            android:background="@color/colorAccent"/>
+
+        <TextView
+            android:id="@+id/tv_sum_music_activity_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="共计"
+            android:background="@color/colorAccent"
+            />
+
+        <Button
+            android:id="@+id/bt_download_music_activity_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="下载" />
+    </LinearLayout>
+
+</LinearLayout>

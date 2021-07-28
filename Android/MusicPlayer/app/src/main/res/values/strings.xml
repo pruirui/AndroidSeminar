@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+    <string name="title_player">播放</string>
+    <string name="title_music_list">歌单</string>
+    <string name="title_function">功能</string>
+    <string name="title_my_info">我的</string>
+
+    <string name="Null"> </string>
+    <string name="username_hint">请输入手机号</string>
+    <string name="password_hint">请输入密码</string>
+    <string name="savePassWord">保存账号密码</string>
+    <string name="login">登录</string>
+    <string name="register">新用户注册</string>
+    <string name="identity_hint">注册身份</string>
+    <string name="name_hint">用户名</string>
+    <string name="register_hint">注册新用户</string>
+    <string name="register_btn">确认注册</string>
+
+
+    <string name="uid_name_my_info">UID :</string>
+    <string name="all_upload_name_my_info">所有上传</string>
+    <string name="set_info_name_my_info">修改个人信息</string>
+    <string name="setting_name_my_info">设置</string>
+    <string name="title_activity_music">MusicActivity</string>
+</resources>
